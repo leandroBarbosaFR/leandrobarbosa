@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <section className={utilStyles.headingMd}>
         <h1>and I’m passionate</h1>
-        <h1>about code and <mark>design!</mark></h1>
+        <h1 className={utilStyles.secondp}>about code and <mark>design!</mark></h1>
       </section>
     </Layout>
   );

@@ -43,13 +43,13 @@ mark {
 
 @media (max-width: 768px) {
    h1 {
-      font-size: 1rem;
-      line-height: 0.75;
+      font-size: 2rem;
+      line-height: 1;
       font-weight: 800;
       letter-spacing: 0.15rem;
       margin: 1rem 0;
       color: #fff;
-      margin-left: 2rem;
+      margin-left: 2.5rem;
 
    }
 }

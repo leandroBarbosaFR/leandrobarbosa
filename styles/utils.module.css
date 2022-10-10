@@ -91,7 +91,11 @@
       margin: 4rem 3rem 0;
       color: #fff;
       width: fit-content;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .secondp {
+      margin-top: -13px;
     }
 
   }
