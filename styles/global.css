@@ -62,6 +62,9 @@ mark::-moz-selection {
       margin: 1rem 0;
       color: #fff;
       margin-left: 2.5rem;
+   }
 
+   body {
+      font-family: 'Montserrat Alternates', sans-serif;
    }
 }
