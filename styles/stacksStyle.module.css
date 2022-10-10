@@ -1,0 +1,125 @@
+.stacksTitle {
+   background-color: #ffc600;
+   color: #060606;
+   width: 170px;
+   margin: 0 auto;
+   display: flex;
+   margin-left: 899px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.stacksContent {
+   color: #060606;
+   background-color: #ffc600;
+}
+
+.stacksContentFramework {
+   color: #060606;
+   background-color: #ffc600;
+   margin-top: 20px;
+   margin-left: 90px;
+}
+
+.stacksContentFrontEnd {
+   color: #060606;
+   background-color: #ffc600;
+   margin-top: 20px;
+   margin-left: 90px;
+}
+
+.stacksContentBackEnd {
+   color: #060606;
+   background-color: #ffc600;
+   margin-top: 20px;
+   margin-left: 90px;
+}
+
+.stacksContentDataBase {
+   color: #060606;
+   background-color: #ffc600;
+   margin-top: 20px;
+   margin-left: 90px;
+}
+
+.stacksContentDesign {
+   color: #060606;
+   background-color: #ffc600;
+   margin-top: 20px;
+   margin-left: 90px;
+}
+
+.stacksContent::-moz-selection {
+   color: #ffc600;
+   background-color: #060606;
+ }
+
+ .stacksContentFramework::-moz-selection {
+   color: #ffc600;
+   background-color: #060606;
+ }
+
+ .stacksContentBackEnd::-moz-selection {
+   color: #ffc600;
+   background-color: #060606;
+ }
+
+ .stacksContentFrontEnd::-moz-selection {
+   color: #ffc600;
+   background-color: #060606;
+ }
+
+ .stacksContentDataBase::-moz-selection {
+   color: #ffc600;
+   background-color: #060606;
+ }
+
+ .stacksContentDesign::-moz-selection {
+   color: #ffc600;
+   background-color: #060606;
+ }
+
+.stacksTitle::-moz-selection {
+   color: #ffc600;
+   background-color: #060606;
+ }
+
+
+ @media (max-width: 768px) {
+   .stacksTitle {
+      margin: 0 auto;
+      display: flex;
+      width: 70px;
+      margin-left: 100px;
+   }
+
+   .stacksContent::-moz-selection { /* Code for Firefox */
+      color: #ffc600;
+      background: #060606;
+    }
+
+   .stacksContent {
+      font-size: 1rem;
+      margin-bottom: 50px;
+   }
+   .stacksContentBackEnd {
+      font-size: 1rem;
+      margin-bottom: 50px;
+   }
+   .stacksContentFramework {
+      font-size: 1rem;
+      margin-bottom: 50px;
+   }
+   .stacksContentFrontEnd {
+      font-size: 1rem;
+      margin-bottom: 50px;
+   }
+   .stacksContentDataBase {
+      font-size: 1rem;
+      margin-bottom: 50px;
+   }
+   .stacksContentDesign {
+      font-size: 1rem;
+      margin-bottom: 50px;
+   }
+}

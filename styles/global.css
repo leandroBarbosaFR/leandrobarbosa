@@ -6,6 +6,8 @@ body {
   line-height: 1.6;
   font-size: 18px;
   background-color: #060606;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 * {
@@ -34,11 +36,21 @@ h1 {
    margin: 1rem 0;
    color: #fff;
    margin-left: -265px;
-
 }
+
+h1::-moz-selection {
+   background-color: #ffffff;
+   color: #060606;
+}
+
 
 mark {
    background-color: #ffc600 ;
+}
+
+mark::-moz-selection {
+   background-color: #060606;
+   color:#ffc600;
 }
 
 @media (max-width: 768px) {

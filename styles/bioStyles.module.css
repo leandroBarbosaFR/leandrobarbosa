@@ -1,0 +1,43 @@
+.bioContent {
+   color: #060606;
+   background-color: #ffc600;
+}
+
+.bioTitle {
+   background-color: #ffc600;
+   color: #060606;
+   width: 82px;
+   margin: 0 auto;
+   display: flex;
+   margin-left: 935px;
+   margin-bottom: 50px;
+}
+
+.bioContent::-moz-selection { /* Code for Firefox */
+   color: #ffc600;
+   background: #060606;
+ }
+
+ .bioTitle::-moz-selection {
+   color: #ffc600;
+   background-color: #060606;
+ }
+
+@media (max-width: 768px) {
+   .bioTitle {
+      margin: 0 auto;
+      display: flex;
+      width: 70px;
+      margin-left: 100px;
+   }
+
+   .bioContent::-moz-selection { /* Code for Firefox */
+      color: #ffc600;
+      background: #060606;
+    }
+
+   .bioContent {
+      font-size: 1rem;
+      margin-bottom: 50px;
+   }
+}
