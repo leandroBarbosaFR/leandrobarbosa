@@ -1,0 +1,27 @@
+.contactBackground {
+   /* background-color: aliceblue!important; */
+   border-radius: 16px;
+   padding: 1px 10px 30px 30px;
+   margin-top: 15px;
+   justify-content: space-around;
+   display: flex;
+}
+
+.contactLinkedin, .contactInstagram, .contactMail, .contactMalt, .contactGithub  {
+   color: #060606;
+   background-color: #ffc600;
+   display: flex;
+   display: inline;
+   width: 130px;
+   cursor: crosshair;
+}
+
+@media (max-width: 768px) {
+   .contactBackground {
+      padding-left: 10px;
+      padding-right: 0;
+      margin-bottom: 50px;
+      font-size: 12px;
+      display: flex;
+   }
+}
