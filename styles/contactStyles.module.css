@@ -13,7 +13,7 @@
    display: flex;
    display: inline;
    width: 130px;
-   cursor: crosshair;
+   cursor: pointer;
 }
 
 @media (max-width: 768px) {

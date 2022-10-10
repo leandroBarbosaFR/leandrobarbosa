@@ -68,7 +68,7 @@
    background-color: #060606;
    width: 100%;
    cursor: pointer;
-
+   /* justify-content: space-between; */
  }
 
  .navbar ul li:active {
