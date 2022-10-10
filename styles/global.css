@@ -3,6 +3,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 600;
+  font-style: italic;
   line-height: 1.6;
   font-size: 18px;
   background-color: #060606;
@@ -62,9 +64,5 @@ mark::-moz-selection {
       margin: 1rem 0;
       color: #fff;
       margin-left: 2.5rem;
-   }
-
-   body {
-      font-family: 'Montserrat Alternates', sans-serif;
    }
 }
