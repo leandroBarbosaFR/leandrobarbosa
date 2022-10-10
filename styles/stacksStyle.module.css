@@ -89,8 +89,7 @@
    .stacksTitle {
       margin: 0 auto;
       display: flex;
-      width: 70px;
-      margin-left: 100px;
+      width: 140px;
    }
 
    .stacksContent::-moz-selection { /* Code for Firefox */
@@ -99,27 +98,35 @@
     }
 
    .stacksContent {
-      font-size: 1rem;
+      font-size: 0.7rem;
       margin-bottom: 50px;
+      margin-left: 0;
+
    }
    .stacksContentBackEnd {
-      font-size: 1rem;
+      font-size: 0.70rem;
       margin-bottom: 50px;
+      margin-left: 0;
+      margin-top: 10px;
    }
    .stacksContentFramework {
-      font-size: 1rem;
+      font-size: 0.70rem;
       margin-bottom: 50px;
+      margin-left: 0;
    }
    .stacksContentFrontEnd {
-      font-size: 1rem;
+      font-size: 0.70rem;
       margin-bottom: 50px;
+      margin-left: 0;
    }
    .stacksContentDataBase {
-      font-size: 1rem;
+      font-size: 0.70rem;
       margin-bottom: 50px;
+      margin-left: 0;
    }
    .stacksContentDesign {
-      font-size: 1rem;
+      font-size: 0.7rem;
       margin-bottom: 50px;
+      margin-left: 0;
    }
 }
