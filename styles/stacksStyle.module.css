@@ -7,6 +7,14 @@
    margin-left: 899px;
    margin-top: 50px;
    margin-bottom: 50px;
+   justify-content: center;
+}
+
+.stacksBackground {
+   background-color: aliceblue!important;
+   border-radius: 16px;
+   padding: 1px 10px 30px 30px;
+   margin-top: 15px;
 }
 
 .stacksContent {
@@ -128,5 +136,10 @@
       font-size: 0.7rem;
       margin-bottom: 50px;
       margin-left: 0;
+   }
+
+   .stacksBackground {
+      padding-left: 10px;
+      padding-right: 0;
    }
 }

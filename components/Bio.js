@@ -2,8 +2,8 @@ import bioStyles from '../styles/bioStyles.module.css';
 
 function Bio() {
    return (
-      <div>
-         <h1><span className={bioStyles.bioTitle}>Bio</span></h1>
+      <div className={bioStyles.bioBackground}>
+      <h1><span className={bioStyles.bioTitle}>About</span></h1>
          <span className={bioStyles.bioContent}>
             Hey! I'm a web developer, teacher Assistant at Le Wagon and I live in the most beautiful city in the whole world "MARSEILLE".
             when I was 16 I had my first company that was on the IT area doin' some maintenance of networks for coffee shops in Brazil and also reparing computers

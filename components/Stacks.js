@@ -2,7 +2,7 @@ import stacksStyles from '../styles/stacksStyle.module.css';
 
 function Stacks() {
    return (
-      <div>
+      <div className={stacksStyles.stacksBackground}>
          <h1><span className={stacksStyles.stacksTitle}>Stacks</span></h1>
          <span className={stacksStyles.stacksContent}>
             I'm a fullStack developer working mostly of my time with Ruby on Rails since the Bootcamp {'<Le Wagon />'}, but also I've working with all these stacks {'=>'}</span>

@@ -3,13 +3,20 @@
    background-color: #ffc600;
 }
 
+.bioBackground {
+   background-color: aliceblue!important;
+   border-radius: 16px;
+   padding: 30px;
+
+}
+
 .bioTitle {
    background-color: #ffc600;
    color: #060606;
-   width: 82px;
+   width: 40px;
    margin: 0 auto;
    display: flex;
-   margin-left: 935px;
+   margin-left: 902px;
    margin-bottom: 50px;
 }
 
@@ -39,5 +46,10 @@
    .bioContent {
       font-size: 1rem;
       margin-bottom: 50px;
+   }
+
+   .bioBackground {
+      padding-left: 10px;
+      padding-right: 0;
    }
 }
