@@ -97,7 +97,7 @@
    .stacksTitle {
       margin: 0 auto;
       display: flex;
-      width: 140px;
+      width: 100px;
    }
 
    .stacksContent::-moz-selection { /* Code for Firefox */
